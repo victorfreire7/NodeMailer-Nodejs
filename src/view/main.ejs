@@ -6,11 +6,95 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>OLAAAAA</h1>
-    <form action="" method="post">   
-        <input type="name" name="name" id="name">
-         <button> BOTAO</button> 
-    </form>
+    <div class="content">
+        <div class="main">
+            <h1>Envie um E-mail para alguém!</h1>
+            <form action="" method="post">   
+                <div class="inputs">
+                    <input type="Para" to="Para" id="Para" placeholder="Para">
+                    <input type="Assunto" Assunto="Assunto" id="Assunto" placeholder="Assunto">
+                    <input type="Texto" Texto="Texto" id="Texto" placeholder="Texto" class="text">
+                    <button> Enviar </button> 
+                </div>
+            </form>
+        </div>
+    </div>
 
+
+    <style>
+
+        *{padding: 0; margin: 0;}
+
+
+        .main{
+            height: 50%;
+            width: 50%;
+      
+            top: 50%;
+            left: 50%;
+            transform: translate(0%, -20%);
+
+            background: rgb(11, 126, 107);
+            border-radius: 20px;
+            border:0.5px solid gray ;
+
+        }
+
+        .content{
+            width: 100%;
+            height: 100vh;
+
+            justify-content: center;
+            align-items: center;
+            display: flex;       
+        }
+
+        .inputs{
+            display: block;
+        }
+
+        input{
+            height: 30px;
+            width: 100%;
+
+            margin-bottom: 10px;
+        }
+
+        .text{
+            height: 100px;
+            width: 100%;
+
+        }
+
+        button{
+            height: 50px;
+            width: 100px;
+
+            border-radius: 20px;
+            border: 0.2px solid black;
+        }
+
+        h1{
+            
+            top: 50%;
+            left: 50%;
+            transform: translate(15%, 100%);
+
+            color: white;
+        }
+
+        form{
+            height: 75%;
+            width: 75%;
+
+            justify-content: center;
+            align-items: center;
+            display: flex;
+
+            top: 50%;
+            left: 50%;
+            transform: translate(15%, 15%);
+        }
+    </style>
 </body>
 </html>
