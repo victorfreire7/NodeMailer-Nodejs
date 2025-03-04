@@ -12,7 +12,7 @@ Para inicializar o projeto, é necessário criar um arquivo chamado .env no dire
     REFRESH_TOKEN= " "
 ```
 
- Para entender como obter os dados para cada uma dessas chaves, leia mais [neste artigo](https://www.freecodecamp.org/portuguese/news/como-usar-o-nodemailer-para-enviar-emails-do-seu-servidor-do-node-js/).
+ Para entender como obter os dados para cada uma dessas chaves, leia mais [neste artigo]([https://www.freecodecamp.org/portuguese/news/como-usar-o-nodemailer-para-enviar-emails-do-seu-servidor-do-node-js/](https://nodemailer.com/about/)).
 
  
 
