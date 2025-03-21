@@ -1,6 +1,6 @@
 ## Sobre
 
- Este é um projeto desenvolvido em Node.js que permite o envio de e-mails anônimos utilizando a API do Google com o Nodemailer.
+ Este é um projeto desenvolvido em Node.js que permite o envio de e-mails anônimos utilizando a API do Google com o Nodemailer. Feito exclusivamente para fins de estudo da API
 
 Para inicializar o projeto, é necessário criar um arquivo chamado .env no diretório raiz da aplicação, contendo as seguintes informações:
 
